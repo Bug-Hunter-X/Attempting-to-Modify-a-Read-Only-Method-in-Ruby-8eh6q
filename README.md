@@ -1,0 +1,1 @@
+This example demonstrates a common error in Ruby: trying to change the value of a read-only accessor method. The code creates a class with an instance variable and a method to access it. The error happens when trying to assign a new value to the accessor method which is not permitted and raises a NoMethodError.
